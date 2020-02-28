@@ -50,7 +50,7 @@ export class Navbar extends Component {
               <Link class="nav-link" to="#">Thoughts</Link>
             </li>
             <li class="nav-item btn-dark rounded-pill">
-              <Link class="nav-link btn" to="/letstalk" type='button' role='button'>Let’s Talk</Link>
+              <Link class="nav-link btn lets-talk-btn" to="/letstalk" type='button' role='button'>Let’s Talk</Link>
             </li>
           </ul>
         </div>
