@@ -19,7 +19,7 @@ export class Content extends Component {
           <Why />
           <Offer />
           <Clients />
-          {/* <Form /> */}
+          <Form />
         </div>
       </main>
     )
