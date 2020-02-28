@@ -19,31 +19,7 @@
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <form name="contact" netlify hidden>
-      <div className="form-row">
-        <div className="col">
-          <input type="text" name="Name" className="form-control" placeholder="First Name Here" required />
-        </div>
-        <div className="col">
-          <input type="number" name="Number" className="form-control" placeholder="Skype ID / Phone" required />
-        </div>
-      </div>
-      <div className="form-row mt-4">
-        <div className="col">
-          <input type="email" name="Email" className="form-control" placeholder="Email ID" required />
-        </div>
-        <div class="col">
-          <input type="text" name="City" className="form-control" placeholder="City / County" required />
-        </div>
-      </div>
-      <div className="form-row mt-4 mb-4">
-        <div className="col">
-          <textarea className="form-control" name="Message" placeholder="Your Message" id="exampleFormControlTextarea1" rows="3"  ></textarea>
-        </div>
-      </div>
-      <button type="submit" className="form-btn rounded-pill pr-4 pl-4 mt-4 btn btn-primary mb-2">Submit</button>
-    </form>
+    <div id="root"></div>    
     
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" ></script>
@@ -80,5 +56,29 @@
 
         });
     </script>
+    <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+      <div className="form-row">
+        <div className="col">
+          <input type="text" name="Name" className="form-control" placeholder="First Name Here" required />
+        </div>
+        <div className="col">
+          <input type="number" name="Number" className="form-control" placeholder="Skype ID / Phone" required />
+        </div>
+      </div>
+      <div className="form-row mt-4">
+        <div className="col">
+          <input type="email" name="Email" className="form-control" placeholder="Email ID" required />
+        </div>
+        <div class="col">
+          <input type="text" name="City" className="form-control" placeholder="City / County" required />
+        </div>
+      </div>
+      <div className="form-row mt-4 mb-4">
+        <div className="col">
+          <textarea className="form-control" name="Message" placeholder="Your Message" id="exampleFormControlTextarea1" rows="3"  ></textarea>
+        </div>
+      </div>
+      <button type="submit" className="form-btn rounded-pill pr-4 pl-4 mt-4 btn btn-primary mb-2">Submit</button>
+    </form>
   </body>
 </html>
