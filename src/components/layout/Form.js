@@ -7,7 +7,7 @@ export class Form extends Component {
         <div className='shadow form mx-auto card col-sm-10 col-md-10 col-lg-8 col-xl-6 text-center mb-4 rounded-lg'>
           <h2 className="pt-4">Have any project in mind?</h2>
           <div className="why-cnt-sub mb-4">Get in touch and let us know how we can help</div>
-          <form name="contact" method="POST">
+          <form name="contact" method="POST" action="/letstalk">
             <input type="hidden" name="form-name" value="contact" />
             <div className="form-row">
               <div className="col">
