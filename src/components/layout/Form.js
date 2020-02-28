@@ -11,23 +11,23 @@ export class Form extends Component {
             <input type="hidden" name="form-name" value="contact" />
             <div className="form-row">
               <div className="col">
-                <input type="text" className="form-control" placeholder="First Name Here" required />
+                <input type="text" name="Name" className="form-control" placeholder="First Name Here" required />
               </div>
               <div className="col">
-                <input type="number" className="form-control" placeholder="Skype ID / Phone" required />
+                <input type="number" name="Number" className="form-control" placeholder="Skype ID / Phone" required />
               </div>
             </div>
             <div className="form-row mt-4">
               <div className="col">
-                <input type="email" className="form-control" placeholder="Email ID" required />
+                <input type="email" name="Email" className="form-control" placeholder="Email ID" required />
               </div>
               <div class="col">
-                <input type="text" className="form-control" placeholder="City / County" required />
+                <input type="text" name="City" className="form-control" placeholder="City / County" required />
               </div>
             </div>
             <div className="form-row mt-4 mb-4">
               <div className="col">
-                <textarea className="form-control" placeholder="Your Message" id="exampleFormControlTextarea1" rows="3"  ></textarea>
+                <textarea className="form-control" name="Message" placeholder="Your Message" id="exampleFormControlTextarea1" rows="3"  ></textarea>
               </div>
             </div>
             <button type="submit" className="form-btn rounded-pill pr-4 pl-4 mt-4 btn btn-primary mb-2">Submit</button>
