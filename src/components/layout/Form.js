@@ -1,14 +1,18 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 
 export class Form extends Component {
+  submitForm (e) {
+		e.preventDefault()
+		this.props.history.push('/letstalk');
+  }
+  
   render() {
     return (
       <section className="form-wrap container-fluid mt-4 pt-4">
         <div className='shadow form mx-auto card col-sm-10 col-md-10 col-lg-8 col-xl-6 text-center mb-4 rounded-lg'>
           <h2 className="pt-4">Have any project in mind?</h2>
           <div className="why-cnt-sub mb-4">Get in touch and let us know how we can help</div>
-          <form name="contact" method="POST" action="/letstalk">
+          <form name="contact" method="POST" onSubmit={this.submitForm.bind(this)}>
             <input type="hidden" name="form-name" value="contact" />
             <div className="form-row">
               <div className="col">

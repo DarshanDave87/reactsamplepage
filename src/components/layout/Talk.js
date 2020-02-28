@@ -18,9 +18,9 @@ export class Talk extends Component {
       <section className='align-items-center d-flex talk text-center col-lg-6'>
         <h1 className="mx-auto"><br />Build your own Team or <br />Hire us for a Project
         <div className="talk-cnt mt-2">Holistic digital solutions to develop <br />a high-performance enterprise</div>
-        <div id='animationSandbox' className='infinite'><Link className="rounded-pill btn btn-talk pt-2 pb-2 pl-4 pr-4 mt-4" to="#" role="button">Let’s Talk</Link></div>
+        <div id='animationSandbox' className='infinite'><Link className="rounded-pill btn btn-talk pt-2 pb-2 pl-4 pr-4 mt-4" to="/letstalk" role="button">Let’s Talk</Link></div>
         </h1>
-        <Link to="/letstalk" className="down-arrow">
+        <Link to="#" className="down-arrow">
         <i className="fa fa-long-arrow-down animated infinite bounceInDown delay-2s" aria-hidden="true"></i>
         </Link>
         <script>
