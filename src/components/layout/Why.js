@@ -5,13 +5,13 @@ export class Why extends Component {
   render() {
     
     return (
-      <section class="d-flex why col-lg-6">
-        <div className="why-cnt animated infinite">
-          <h2>WHY drc systems?</h2>
-          <h4 className="why-sub-tlt">Creating thoughtful solutions for your technology challenges</h4>
-          <div className="why-cnt-sub">Successful products require a mix of strategy, technical, creative and management skills. Our services have been designed for any stage of the product development cycle.</div>
-          <div className="why-cnt-sub">Successful products require a mix of strategy, technical, creative and management skills. Our services have been designed for any stage of the product development cycle.</div>
-          <div className="text-center mt-4 mb-4"><Link class="mb-4 mt-4 rounded-pill btn btn-talk pt-2 pb-2 pl-4 pr-4" to="#" role="button">Let’s Talk</Link></div>
+      <section className="d-flex why col-lg-6">
+        <div className="why-cnt animated infinite" id="why">
+          <h2 className="animated delay-1s">WHY drc systems?</h2>
+          <h4 className="why-sub-tlt animated delay-2s">Creating thoughtful solutions for your technology challenges</h4>
+          <div className="why-cnt-sub animated delay-3s">Successful products require a mix of strategy, technical, creative and management skills. Our services have been designed for any stage of the product development cycle.</div>
+          <div className="why-cnt-sub animated delay-4s">Successful products require a mix of strategy, technical, creative and management skills. Our services have been designed for any stage of the product development cycle.</div>
+          <div className="text-center mt-4 mb-4"><Link className="mb-4 mt-4 animated delay-5s rounded-pill btn btn-talk pt-2 pb-2 pl-4 pr-4" to="#" role="button">Let’s Talk</Link></div>
         </div>
         <div className="why-cnt-number">
         <h2 className="mt-4 text-center text-sm-left text-lg-left">what we’ve done</h2>

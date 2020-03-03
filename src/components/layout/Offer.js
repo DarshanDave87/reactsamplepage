@@ -13,7 +13,7 @@ export class Offer extends Component {
         <div className="container-fluid pt-4">
           <div className="row">
           {this.state.products.map( product => (
-            <Product />
+            <Product key={product.id}/>
           ))}
           
           </div>
@@ -23,4 +23,4 @@ export class Offer extends Component {
   }
 }
 
-export default Offer
+export default Offer;

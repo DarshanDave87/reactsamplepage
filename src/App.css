@@ -127,6 +127,7 @@ section.talk .btn-talk, section.why .btn-talk{
 .down-arrow:hover{color:5d82aa;border-color: #5d82aa;}
 section.que{
   background: #e8e8e8;
+  flex-direction: column;
 }
 section.why{
   flex-direction: column;
@@ -345,6 +346,7 @@ footer.footer li.mail{
 }
 footer li a:hover{
   padding-left:10px;
+  text-decoration: none;
 }
 
 @media only screen and (max-width: 600px) {
@@ -389,3 +391,14 @@ footer li a:hover{
   }
 }
 
+@media only screen and (min-width: 992px) and (max-width: 1234px){
+  .navbar-light .navbar-nav .nav-link{
+    font-size: 1.2vw;
+  }
+  section.talk h1{
+    font-size: 3vw;
+  }
+  section.talk .talk-cnt {
+    font-size: 2vw;
+  }
+}

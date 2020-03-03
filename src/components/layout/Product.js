@@ -3,6 +3,7 @@ import offer from '../../img/offer_icon.jpg';
 import { Link } from 'react-router-dom';
 
 class Product extends Component {
+  
   render() {
     document.addEventListener('mouseover', function(e){    
       if(e.target.classList.contains('box-animation')){

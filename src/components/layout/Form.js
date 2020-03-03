@@ -23,7 +23,7 @@ export class Form extends Component {
               <div className="col">
                 <input type="email" name="Email" className="form-control" placeholder="Email ID" required />
               </div>
-              <div class="col">
+              <div className="col">
                 <input type="text" name="City" className="form-control" placeholder="City / County" required />
               </div>
             </div>
