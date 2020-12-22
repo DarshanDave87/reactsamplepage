@@ -9,7 +9,7 @@ export const Ftrfour = () => {
         <ul>
           <li className='address'>Lorem Ipsume doller site amet</li>
           <li className='call'>20 123 456 7890</li>
-          <li className='mail'><Link to="mailto:info@drcsystems.com">info@drcsystems.com</Link></li>
+          <li className='mail'><Link to="mailto:info@drcsystems.com">info@companyname.com</Link></li>
         </ul>
         <h4>About Us</h4>
         <ul>
