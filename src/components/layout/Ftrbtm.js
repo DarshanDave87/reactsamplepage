@@ -4,7 +4,7 @@ export const Ftrbtm = () => {
   return (
     <div className='container-fluid align-items-end ftrbtm'>
       <div className='row justify-content-between'>
-      <div className='copyright'>Copyright &copy; 2019 Drcsystems Private Limited. All rights reserved. </div>      
+      <div className='copyright'>Copyright &copy; 2020 Company Private Limited. All rights reserved. </div>      
       <div className='social d-flex'>
         <i className="ml-3 fa fa-facebook-square" aria-hidden="true"></i>
         <i className="ml-3 fa fa-twitter-square" aria-hidden="true"></i>
