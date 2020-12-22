@@ -7,7 +7,7 @@ export class Why extends Component {
     return (
       <section className="d-flex why col-lg-6">
         <div className="why-cnt animated infinite" id="why">
-          <h2 className="animated delay-1s">WHY drc systems?</h2>
+          <h2 className="animated delay-1s">WHY our company?</h2>
           <h4 className="why-sub-tlt animated delay-2s">Creating thoughtful solutions for your technology challenges</h4>
           <div className="why-cnt-sub animated delay-3s">Successful products require a mix of strategy, technical, creative and management skills. Our services have been designed for any stage of the product development cycle.</div>
           <div className="why-cnt-sub animated delay-4s">Successful products require a mix of strategy, technical, creative and management skills. Our services have been designed for any stage of the product development cycle.</div>
